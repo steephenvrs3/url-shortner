@@ -23,7 +23,6 @@ app.get('/', async (req, res) => {
     }
     chartArray.push(pushObj)
   })
-  console.log(chartArray);
   res.render('index', {
     shortUrls: shortUrls,
     chartArray: chartArray
